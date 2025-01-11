@@ -16,7 +16,7 @@ Resposta:
 prompt = ChatMessagePromptTemplate.from_template(template, role="user")
 
 # Configurando o modelo
-model = OllamaLLM(model='gemma2:2b')
+model = OllamaLLM(model='llama3.2')
 
 def chama_na_conversa(context: str, question: str, personagem: str):
     context = context
