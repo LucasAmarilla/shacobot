@@ -1,6 +1,5 @@
 from ai import chama_na_conversa
 from fastapi import FastAPI, HTTPException, Depends
-from fastapi.security import OAuth2PasswordBearer
 from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
